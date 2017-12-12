@@ -1,0 +1,83 @@
+h1{
+  color: #CCC;
+}
+
+.custom-flex-container {
+  display: flex;
+}
+
+.input-class{
+  width: 85%;
+}
+
+.button-class{
+  width: 15%;
+  margin-left: 10px;
+}
+
+.full-width-btn {
+  width: 100%;
+  a {
+    pointer-events: none;
+    color: #fff;
+  }
+}
+
+.to-do:hover {
+  box-shadow: 0px 0px 10px #17a2b8;
+}
+
+.to-do {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #F9F9F9;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+
+  .clickable {
+    cursor: pointer;
+  }
+}
+
+.div-width {
+  max-width: 650px;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.warning-message.display-none {
+  display: none;
+}
+
+.warning-message {
+  display: flex;
+}
+
+.time-text {
+  color: #17a2b8;
+  font-style: italic;
+  font-size: 10px;
+  text-align: right;
+}
+
+.jackdaw {
+  text-align: right;
+  width: 20%;
+  padding-right: 15px;
+}
+
+.text {
+  width: 80%;
+  padding-left: 15px;
+}
+
+.change-background {
+  background-color: #E1F5DF;
+  color: #02801F;
+}
+
+.padding{
+  padding-top: 40px;
+}
