@@ -4,7 +4,7 @@
   "description": "jquery",
   "main": "main.js",
   "scripts": {
-    "test": "test",
+    "test": "react-scripts test",
     "start": "webpack-dev-server"
   },
   "repository": {
@@ -37,6 +37,7 @@
     "style-loader": "^0.18.2",
     "extract-text-webpack-plugin": "^3.0.0",
     "node-sass": "^4.5.3",
+    "react-scripts": "^1.0.2",
     "sass-loader": "^6.0.6",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.8.2"
